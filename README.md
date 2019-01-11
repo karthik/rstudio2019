@@ -13,6 +13,7 @@ I have included a handful of links to papers, software packages and tutorials/ma
 - [The rOpenSci reproducibility guide](https://ropensci.github.io/reproducibility-guide/) *Slightly dated but still very useful*
 
 **Examples of Research Compendia on GitHub**
+Below are a few links to real world examples of research compendia in R. To have a minimal compendium, all you really need is a valid [`DESCRIPTION`](https://github.com/boettiger-lab/pomdp-intro/blob/master/DESCRIPTION) file containing a handful of fields such as type, name, version and dependencies. See Marwick et al 2017 for a detailed description of the different types of compendia.
 
 **Small**
 
@@ -27,7 +28,7 @@ I have included a handful of links to papers, software packages and tutorials/ma
 - [`rrtools`](https://github.com/benmarwick/rrtools)  *extends functions in `devtools` and provides instructions, templates, and functions to make a basic compendium suitable for doing reproducible research with R.* 
 - [`usethis`](https://github.com/r-lib/usethis) *Many of the major function in `rrtools` are imported from `usethis.` A savvy user can get by setting up and maintaining a compendium purely with `usethis` functions.*
 - [`goodpractice`](https://github.com/MangoTheCat/goodpractice) - Designed to help you build more robust packages, the package does a deep dive on your package contents and provide advice on syntax pitfalls to avoid, code formatting suggestions, and helps you improve overall package structure.
-- The `rticles` package by JJ has numerous journal templates and together with Rstudio addins like word `countaddin` and `citr` + `knitcitations`.
+- The [`rticles`](https://github.com/rstudio/rticles) package by JJ has numerous journal templates and together with Rstudio addins like word [`countaddin` ](https://github.com/benmarwick/wordcountaddin)and [`citr`](https://github.com/crsh/citr) + [`knitcitations`](https://github.com/cboettig/knitcitations).
  
 
 ### Data management 
@@ -52,9 +53,17 @@ I have included a handful of links to papers, software packages and tutorials/ma
 - ?
 - ?
 
+
+**Software packages related to setting up computational environments**
+
+- [`Containerit`](https://github.com/o2r-project/containerit)
+- [Stevedore: Docker client for R](https://github.com/richfitz/stevedore)
+- 
+
 ### Workflows: Drake and friends
 
 - [`Drake`](https://github.com/ropensci/drake) - An R-focused pipeline toolkit for reproducibility and high-performance computing. Install the package from here or CRAN.
+- [The prequel to the drake R package](https://ropensci.org/blog/2018/02/06/drake/) *A blog post by the creator of Drake describing his motivation for the package.*
 - [Drake manual](https://ropenscilabs.github.io/drake-manual/) A detailed `bookdown` guide on how to setup and use Drake for projects of varying levels of complexity.
 - [Presentation on Drake](https://wlandau.github.io/drake-datafest-2019/#/) Slides from a talk by Will Landau.
 
