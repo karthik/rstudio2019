@@ -16,12 +16,16 @@ I have included a handful of links to papers, software packages and tutorials/ma
 Below are a few links to real world examples of research compendia in R. To have a minimal compendium, all you really need is a valid [`DESCRIPTION`](https://github.com/boettiger-lab/pomdp-intro/blob/master/DESCRIPTION) file containing a handful of fields such as type, name, version and dependencies. See Marwick et al 2017 for a detailed description of the different types of compendia.
 
 **Small**
-
+- [Code and data associated with Duffy, James, and Longworth Applied and Environmental Microbiology paper describing the ecology, virulence, and phylogeny of a brood parasite of Daphnia, Blastulidium paedophthorum;](https://github.com/duffymeg/BroodParasiteDescription)\
+ 
 **Medium**
 - [Resolving the measurement uncertainty paradox in ecological management](https://github.com/boettiger-lab/pomdp-intro)
 
 **Large**
 
+- [Non-parametric Bayesian Inference for Conservation Decisions ](https://github.com/cboettig/nonparametric-bayes)
+
+- Find various other compendia on [Github](https://github.com/topics/research-compendium) and [Zenodo](https://zenodo.org/communities/research-compendium?page=1&size=20) using the research-compendium` tag.
 
 **Software packages related to research compendia**
 
