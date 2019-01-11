@@ -16,7 +16,7 @@ I have included a handful of links to papers, software packages and tutorials/ma
 Below are a few links to real world examples of research compendia in R. To have a minimal compendium, all you really need is a valid [`DESCRIPTION`](https://github.com/boettiger-lab/pomdp-intro/blob/master/DESCRIPTION) file containing a handful of fields such as type, name, version and dependencies. See Marwick et al 2017 for a detailed description of the different types of compendia.
 
 **Small**
-- [Code and data associated with Duffy, James, and Longworth Applied and Environmental Microbiology paper describing the ecology, virulence, and phylogeny of a brood parasite of Daphnia, Blastulidium paedophthorum;](https://github.com/duffymeg/BroodParasiteDescription)\
+- [Code and data associated with Duffy, James, and Longworth Applied and Environmental Microbiology paper describing the ecology, virulence, and phylogeny of a brood parasite of Daphnia, Blastulidium paedophthorum;](https://github.com/duffymeg/BroodParasiteDescription)
  
 **Medium**
 - [Resolving the measurement uncertainty paradox in ecological management](https://github.com/boettiger-lab/pomdp-intro)
@@ -25,7 +25,7 @@ Below are a few links to real world examples of research compendia in R. To have
 
 - [Non-parametric Bayesian Inference for Conservation Decisions ](https://github.com/cboettig/nonparametric-bayes)
 
-- Find various other compendia on [Github](https://github.com/topics/research-compendium) and [Zenodo](https://zenodo.org/communities/research-compendium?page=1&size=20) using the research-compendium` tag.
+- Find various other compendia on [Github](https://github.com/topics/research-compendium) and [Zenodo](https://zenodo.org/communities/research-compendium?page=1&size=20) using the `research-compendium` tag.
 
 **Software packages related to research compendia**
 
@@ -47,15 +47,17 @@ Below are a few links to real world examples of research compendia in R. To have
 - 🎥 [A talk about Binder at Scipy 2018](https://www.youtube.com/watch?v=KcC0W5LP9GM). Also see [conference proceedings PDF](http://conference.scipy.org/proceedings/scipy2018/pdfs/project_jupyter.pdf).
 - [`repo2docker`](https://github.com/jupyter/repo2docker) A Python module that will turn any repo (or local folder) into a Docker Image.  
 
-**Also see**
-- [Whole Tale](https://wholetale.org/) 
-- [Computing environments for reproducibility: Capturing the “Whole Tale”](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) - OA paper describing the Whole Tale project.
-
 **Other hosted Binder hubs**
 
 - [Pangeo binder](https://binder.pangeo.io/)
 - ?
 - ?
+
+
+**Also see**
+- [Whole Tale](https://wholetale.org/) 
+- [Computing environments for reproducibility: Capturing the “Whole Tale”](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) - OA paper describing the Whole Tale project.
+- [Code Ocean](https://codeocean.com/) - A commercial, blackbox, full-stack service that will accomplish something similar to the above two projects. Code Ocean links will likely start appearing in papers soon.
 
 
 **Software packages related to setting up computational environments**
