@@ -1,6 +1,6 @@
-# How to make your data analysis notebooks more reproducible
+# How To Make Your Data Analysis Notebooks More Reproducible
 
-![rstudio_talk_slides](https://i.imgur.com/uLN3D1S.png)
+![rstudio_talk_slides](https://i.imgur.com/fYGze6k.png)
 
 Slide deck (link TBD) | Slide deck as PDF (link TBD)
 
