@@ -9,6 +9,7 @@ I have included a handful of links to papers, software packages and tutorials/ma
 
 ### Research Compendia
 
+- [Statistical Analysis and reproducible research ](https://biostats.bepress.com/bioconductor/paper2/)
 - [Packaging Data Analytical Work Reproducibly Using R (and Friends)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375986) ([OA preprint](https://peerj.com/preprints/3192/)). A practical introduction to setting up a research compendium in R. 
 - [The rOpenSci reproducibility guide](https://ropensci.github.io/reproducibility-guide/) *Slightly dated but still very useful*
 
@@ -35,7 +36,7 @@ Below are a few links to real world examples of research compendia in R. To have
 - The [`rticles`](https://github.com/rstudio/rticles) package by JJ has numerous journal templates and together with Rstudio addins like word [`countaddin` ](https://github.com/benmarwick/wordcountaddin)and [`citr`](https://github.com/crsh/citr) + [`knitcitations`](https://github.com/cboettig/knitcitations).
  
 
-### Data management 
+### 📈 Data management 
 
 - [`piggyback`](https://github.com/ropensci/piggyback), [[docs]](https://ropensci.github.io/piggyback/):  This clever R package allows you to attach arbitrary data (or other) files (upto 2gb each) to a GitHub release. Given GitHub's fast CDN, this would be an easy way to quickly attach large files to a compendium and read them back in a local/collaborator/remote environment very easily. As always be sure to archive a long-term copy on [Zenodo](https://zenodo.org/).
 - [`arkdb`](https://github.com/ropensci/arkdb) [[docs]](https://ropensci.github.io/arkdb/):  This package allows you to archive and unarchive databases as flat text files.
@@ -49,9 +50,11 @@ Below are a few links to real world examples of research compendia in R. To have
 
 **Other hosted Binder hubs**
 
-- [Pangeo binder](https://binder.pangeo.io/)
-- ?
-- ?
+- [Pangeo binder](https://binder.pangeo.io/) Pangeo encourages others to use it.
+- [gesis](https://notebooks.gesis.org/)
+- [Syzgy](http://syzygy.ca/) Binder + JupyterHub for Compute Canada
+
+Are you interested in setting up or hosting a binder for the R community? Get in touch via the issues.
 
 
 **Also see**
@@ -66,7 +69,7 @@ Below are a few links to real world examples of research compendia in R. To have
 - [Stevedore: Docker client for R](https://github.com/richfitz/stevedore)
 - 
 
-### Workflows: Drake and friends
+### 🔨 Workflows: Drake and friends
 
 - [`Drake`](https://github.com/ropensci/drake) - An R-focused pipeline toolkit for reproducibility and high-performance computing. Install the package from here or CRAN.
 - [The prequel to the drake R package](https://ropensci.org/blog/2018/02/06/drake/) *A blog post by the creator of Drake describing his motivation for the package.*
