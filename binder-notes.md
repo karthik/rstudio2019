@@ -40,7 +40,7 @@ To launch a Rstudio server instead of a Jupyter notebook, you will need to appen
 
 📉 **Downsides to this approach**
 
-This is by far the slowest way to set up a binder. Depending on the packages you depend on (e.g. tidyverse)  it can take several hours for the first image to be built and it may stall sometimes, requiring you to kick off a new build all over again.
+This is by far the slowest way to set up a binder. Depending on the packages you depend on (e.g. tidyverse)  it can take several hours (only for R packages) for the first image to be built and it may stall sometimes, requiring you to kick off a new build all over again.
 
 ## 🏇 A faster approach
 
@@ -52,7 +52,7 @@ I also prefer this approach because it provides an additional layer of usefulnes
 
 ### ⚠ Caution
 
-*If your base Docker image does not include binder specific components, then you will not be able to launch Rstudio server (or even a Jupyter notebook). Binder will get through the setup but not launch an instance for you. My recommendation is to use the Rocker binder image as your base and then add other packages you need.*
+*If your base Docker image does not include binder specific components, then you will not be able to launch Rstudio server (or even a Jupyter notebook). To prepare your Dockerfile for binder, read [this guide](https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile). Binder will get through the setup but not launch an instance for you. My recommendation is to use the Rocker binder image as your base and then add other packages you need.*
 
 
 ## 🚀 Fastest and best recommendation for a compendium
@@ -63,6 +63,6 @@ I also prefer this approach because it provides an additional layer of usefulnes
 This will build the container on the first run (and cache after that assuming your Git repo does not accrue further commits) and launch quickly from then on.
 
 ### Limitations of mybinder
-- Each instance is limited to 2 gb of RAM and will get destroyed after 10 minutes of inactivity.
+- Each instance is limited to 2 gb of RAM and will get destroyed after 10 minutes of inactivity. More on [memory issues](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder).
 - Each instance can run for a maximum of 24 hours before it will get killed.
-- You can get around these limitations by hosting your own binder hub but this will require compute + devops resources from your side.
+- You can get around these limitations by hosting your own binder hub but this will require compute + devops resources from your side. Read more at the [binder deployment guide](https://binderhub.readthedocs.io/en/latest/).
