@@ -65,4 +65,4 @@ This will build the container on the first run (and cache after that assuming yo
 ### Limitations of mybinder
 - Each instance is limited to 2 gb of RAM and will get destroyed after 10 minutes of inactivity. More on [memory issues](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder).
 - Each instance can run for a maximum of 24 hours before it will get killed.
-- You can get around these limitations by hosting your own binder hub but this will require compute + devops resources from your side. Read more at the [binder deployment guide](https://binderhub.readthedocs.io/en/latest/).
+- You can get around these limitations by hosting your own binder hub but this will require compute + devops resources from your side. Read more at the [binderhub deployment guide](https://binderhub.readthedocs.io/en/latest/).
