@@ -32,19 +32,20 @@ Below are a few links to real world examples of research compendia in R. To have
 
 - [`rrtools`](https://github.com/benmarwick/rrtools)  by Ben Marwick (also the author of the packaging data analysis paper mentioned above) *extends functions in `devtools` and provides instructions, templates, and functions to make a basic compendium suitable for doing reproducible research with R.* 
 - [`usethis`](https://github.com/r-lib/usethis) *Many of the major function in `rrtools` are imported from `usethis.` A savvy user can get by setting up and maintaining a compendium purely with `usethis` functions.*
+	- Also see [workflowr](https://jdblischak.github.io/workflowr/) by John Blischak and the [task view](https://github.com/jdblischak/ctv-project-workflows) on R-based data analysis projects maintained by John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst.
 - [`goodpractice`](https://github.com/MangoTheCat/goodpractice) - Designed to help you build more robust packages, the package does a deep dive on your package contents and provide advice on syntax pitfalls to avoid, code formatting suggestions, and helps you improve overall package structure.
 - The [`rticles`](https://github.com/rstudio/rticles) package by JJ has numerous journal templates and together with Rstudio addins like word [`countaddin` ](https://github.com/benmarwick/wordcountaddin)and [`citr`](https://github.com/crsh/citr) + [`knitcitations`](https://github.com/cboettig/knitcitations).
  
 
 ### 📈 Data management 
 
-- [`piggyback`](https://github.com/ropensci/piggyback), [[docs]](https://ropensci.github.io/piggyback/):  This clever R package allows you to attach arbitrary data (or other) files (upto 2gb each) to a GitHub release. Given GitHub's fast CDN, this would be an easy way to quickly attach large files to a compendium and read them back in a local/collaborator/remote environment very easily. As always be sure to archive a long-term copy on [Zenodo](https://zenodo.org/).
+- [`piggyback`](https://github.com/ropensci/piggyback), [[docs]](https://ropensci.github.io/piggyback/):  This clever R package allows you to attach arbitrary data (or other) files (upto 2gb each) to a GitHub release. Given GitHub's fast [CDN](https://en.wikipedia.org/wiki/Content_delivery_network), this would be an easy way to quickly attach large files to a compendium and read them back in a local/collaborator/remote environment very easily. As always be sure to archive a long-term copy on [Zenodo](https://zenodo.org/).
 - [`arkdb`](https://github.com/ropensci/arkdb) [[docs]](https://ropensci.github.io/arkdb/):  This package allows you to archive and unarchive databases as flat text files.
 -  🎥 For more on setting up data packages, see this [excellent talk by Noam Ross](https://www.youtube.com/watch?v=zsEsh5QpN0U) at New York R.
 
 ### Computational environments: Binder and friends
 
-- [My Binder](https://mybinder.org/) - Turns any Git repo into a collection of interactive notebooks. Now with R support!
+- [My Binder](https://mybinder.org/) is a free binderhub deployment that turns any Git repo into a collection of interactive notebooks. Now with better R support!
 - For instructions on how to set this up for your R project, see [my notes here](https://github.com/karthik/rstudio2019/blob/master/binder-notes.md)
 - [Introducing Binder 2.0 — share your interactive research environment](https://elifesciences.org/labs/8653a61d/introducing-binder-2-0-share-your-interactive-research-environment) Paper describing the architecture of Binder in case you were interested in what was happening under the hood
 - 🎥 [A talk about Binder at Scipy 2018](https://www.youtube.com/watch?v=KcC0W5LP9GM). Also see [conference proceedings PDF](http://conference.scipy.org/proceedings/scipy2018/pdfs/project_jupyter.pdf).
@@ -58,9 +59,9 @@ Below are a few links to real world examples of research compendia in R. To have
 
 **Setting up Binder for your analysis**
 
-I have captured all the various ways to set up binder with a R project in a [separate document](binder-notes.md)
+I have captured all the various ways to set up mybinder with a R project in a [separate document](binder-notes.md)
 
-Are you interested in setting up or hosting a binder for the R community? Get in touch via the issues.
+Are you interested in setting up or hosting a binderhub for the R community? Get in touch via the issues.
 
 
 **Also see**
