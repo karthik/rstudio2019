@@ -50,6 +50,21 @@ You will need to gather dependencies in your scripts/notebooks. This can be done
 
 I also prefer this approach because it provides an additional layer of usefulness for a user who may not want to use binder or Docker. For such users the `DESCRIPTION` file is a concise way to install the compendium locally.
 
+Example minimal Dockerfile (thanks Carl) to make this work 
+
+```
+FROM rocker/binder:latest
+
+USER root
+COPY . ${HOME}
+RUN chown -R ${NB_USER} ${HOME}
+
+## Become normal user again
+USER ${NB_USER}
+RUN wget https://github.com/karthik/binder-test-fastest/raw/master/DESCRIPTION && \
+R -e "devtools::install_deps()"
+```
+
 ### ⚠ Caution
 
 *If your base Docker image does not include binder specific components, then you will not be able to launch Rstudio server (or even a Jupyter notebook). To prepare your Dockerfile for binder, read [this guide](https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile). Binder will get through the setup but not launch an instance for you. My recommendation is to use the Rocker binder image as your base and then add other packages you need.*
