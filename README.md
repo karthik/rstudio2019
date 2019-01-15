@@ -86,6 +86,9 @@ Are you interested in setting up or hosting a binderhub for the R community? Get
 **Real world Drake examples**
 - [Pathogen modeling study](https://github.com/pat-s/pathogen-modeling)
 
+**Miscellaneous**
+- IKEA diagram inspired by [IDEA instructions](https://idea-instructions.com/)
+
 ---
 
 ### Acknowledgments
