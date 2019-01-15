@@ -31,8 +31,8 @@ Below are a few links to real world examples of research compendia in R. To have
 **Software packages related to research compendia**
 
 - [`rrtools`](https://github.com/benmarwick/rrtools)  by Ben Marwick (also the author of the packaging data analysis paper mentioned above) *extends functions in `devtools` and provides instructions, templates, and functions to make a basic compendium suitable for doing reproducible research with R.* 
-- [`usethis`](https://github.com/r-lib/usethis) *Many of the major function in `rrtools` are imported from `usethis.` A savvy user can get by setting up and maintaining a compendium purely with `usethis` functions.*
 	- Also see [workflowr](https://jdblischak.github.io/workflowr/) by John Blischak and the [task view](https://github.com/jdblischak/ctv-project-workflows) on R-based data analysis projects maintained by John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst.
+- [`usethis`](https://github.com/r-lib/usethis) *Many of the major function in `rrtools` are imported from `usethis.` A savvy user can get by setting up and maintaining a compendium purely with `usethis` functions.*
 - [`goodpractice`](https://github.com/MangoTheCat/goodpractice) - Designed to help you build more robust packages, the package does a deep dive on your package contents and provide advice on syntax pitfalls to avoid, code formatting suggestions, and helps you improve overall package structure.
 - The [`rticles`](https://github.com/rstudio/rticles) package by JJ has numerous journal templates and together with Rstudio addins like word [`countaddin` ](https://github.com/benmarwick/wordcountaddin)and [`citr`](https://github.com/crsh/citr) + [`knitcitations`](https://github.com/cboettig/knitcitations).
  
