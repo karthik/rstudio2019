@@ -59,7 +59,7 @@ Below are a few links to real world examples of research compendia in R. To have
 
 **Setting up Binder for your analysis**
 
-I have captured all the various ways to set up mybinder with a R project in a [separate document](binder-notes.md). Also check out this new and experimental package called [`holepunch`](https://github.com/karthik/holepunch) to help you automate setup for a binder project.
+I have captured all the various ways to set up mybinder with a R project in a [separate document](binder-notes.md). 
 
 Are you interested in setting up or hosting a binderhub for the R community? Get in touch via the issues.
 

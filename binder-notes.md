@@ -77,6 +77,10 @@ R -e "devtools::install_deps()"
 
 This will build the container on the first run (and cache after that assuming your Git repo does not accrue further commits) and launch quickly from then on.
 
+### Holepunch
+
+Also check out this new and experimental package called [`holepunch`](https://github.com/karthik/holepunch) to help you automate setup for a binder project.
+
 ### Limitations of mybinder
 - Each instance is limited to 2 gb of RAM and will get destroyed after 10 minutes of inactivity. More on [memory issues](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder).
 - Each instance can run for a maximum of 24 hours before it will get killed.
