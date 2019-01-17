@@ -2,7 +2,7 @@
 
 ![rstudio_talk_slides](https://i.imgur.com/fYGze6k.png)
 
-[Slide deck](http://inundata.org/talks/rstd19/#/) | Slide deck as PDF (link TBD)
+[Slide deck](http://inundata.org/talks/rstd19/#/) | Slide deck as [PDF](https://github.com/karthik/rstudio2019/blob/master/reproducible-data-analysis.pdf) 
 
 ## Resources
 I have included a handful of links to papers, software packages and tutorials/manuals about some tools I mention in my talk. Pull requests or issues on additional ones to include are welcome.
