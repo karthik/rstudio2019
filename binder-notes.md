@@ -77,7 +77,7 @@ R -e "devtools::install_deps()"
 
 This will build the container on the first run (and cache after that assuming your Git repo does not accrue further commits) and launch quickly from then on.
 
-### Holepunch
+### 💥 Holepunch ⚠️
 
 Also check out this new and experimental package called [`holepunch`](https://github.com/karthik/holepunch) to help you automate setup for a binder project.
 
