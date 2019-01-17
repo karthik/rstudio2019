@@ -30,17 +30,17 @@ Below are a few links to real world examples of research compendia in R. To have
 
 **Software packages related to research compendia**
 
-- [`rrtools`](https://github.com/benmarwick/rrtools)  by Ben Marwick (also the author of the packaging data analysis paper mentioned above) *extends functions in `devtools` and provides instructions, templates, and functions to make a basic compendium suitable for doing reproducible research with R.* 
-	- Also see [workflowr](https://jdblischak.github.io/workflowr/) by John Blischak and the [task view](https://github.com/jdblischak/ctv-project-workflows) on R-based data analysis projects maintained by John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst.
-- [`usethis`](https://github.com/r-lib/usethis) *Many of the major function in `rrtools` are imported from `usethis.` A savvy user can get by setting up and maintaining a compendium purely with `usethis` functions.*
-- [`goodpractice`](https://github.com/MangoTheCat/goodpractice) - Designed to help you build more robust packages, the package does a deep dive on your package contents and provide advice on syntax pitfalls to avoid, code formatting suggestions, and helps you improve overall package structure.
-- The [`rticles`](https://github.com/rstudio/rticles) package by JJ has numerous journal templates and together with Rstudio addins like word [`countaddin` ](https://github.com/benmarwick/wordcountaddin)and [`citr`](https://github.com/crsh/citr) + [`knitcitations`](https://github.com/cboettig/knitcitations).
+- 📦 [`rrtools`](https://github.com/benmarwick/rrtools)  by Ben Marwick (also the author of the packaging data analysis paper mentioned above) *extends functions in `devtools` and provides instructions, templates, and functions to make a basic compendium suitable for doing reproducible research with R.* 
+	- Also see 📦 [workflowr](https://jdblischak.github.io/workflowr/) by John Blischak and the [task view](https://github.com/jdblischak/ctv-project-workflows) on R-based data analysis projects maintained by John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst.
+- 📦 [`usethis`](https://github.com/r-lib/usethis) *Many of the major function in `rrtools` are imported from `usethis.` A savvy user can get by setting up and maintaining a compendium purely with `usethis` functions.*
+- 📦 [`goodpractice`](https://github.com/MangoTheCat/goodpractice) - Designed to help you build more robust packages, the package does a deep dive on your package contents and provide advice on syntax pitfalls to avoid, code formatting suggestions, and helps you improve overall package structure.
+- The 📦 [`rticles`](https://github.com/rstudio/rticles) package by JJ has numerous journal templates and together with Rstudio addins like word [`countaddin` ](https://github.com/benmarwick/wordcountaddin)and [`citr`](https://github.com/crsh/citr) + [`knitcitations`](https://github.com/cboettig/knitcitations).
  
 
 ### 📈 Data management 
 
-- [`piggyback`](https://github.com/ropensci/piggyback), [[docs]](https://ropensci.github.io/piggyback/):  This clever R package allows you to attach arbitrary data (or other) files (upto 2gb each) to a GitHub release. Given GitHub's fast [CDN](https://en.wikipedia.org/wiki/Content_delivery_network), this would be an easy way to quickly attach large files to a compendium and read them back in a local/collaborator/remote environment very easily. As always be sure to archive a long-term copy on [Zenodo](https://zenodo.org/).
-- [`arkdb`](https://github.com/ropensci/arkdb) [[docs]](https://ropensci.github.io/arkdb/):  This package allows you to archive and unarchive databases as flat text files.
+- 📦 [`piggyback`](https://github.com/ropensci/piggyback), [[docs]](https://ropensci.github.io/piggyback/):  This clever R package allows you to attach arbitrary data (or other) files (upto 2gb each) to a GitHub release. Given GitHub's fast [CDN](https://en.wikipedia.org/wiki/Content_delivery_network), this would be an easy way to quickly attach large files to a compendium and read them back in a local/collaborator/remote environment very easily. As always be sure to archive a long-term copy on [Zenodo](https://zenodo.org/).
+- 📦 [`arkdb`](https://github.com/ropensci/arkdb) [[docs]](https://ropensci.github.io/arkdb/):  This package allows you to archive and unarchive databases as flat text files.
 -  🎥 For more on setting up data packages, see this [excellent talk by Noam Ross](https://www.youtube.com/watch?v=zsEsh5QpN0U) at New York R.
 
 ### Computational environments: Binder and friends
@@ -72,13 +72,13 @@ Are you interested in setting up or hosting a binderhub for the R community? Get
 
 **Software packages related to setting up computational environments**
 
-- [`Containerit`](https://github.com/o2r-project/containerit). [Detailed blog post](https://o2r.info/2017/05/30/containerit-package/) This sweet package will generate a Dockerfile for you by examining the code inside a folder or just from your session info. This is analogous to `repo2docker` but is very R centric
+- 📦 [`Containerit`](https://github.com/o2r-project/containerit). [Detailed blog post](https://o2r.info/2017/05/30/containerit-package/) This sweet package will generate a Dockerfile for you by examining the code inside a folder or just from your session info. This is analogous to `repo2docker` but is very R centric
 - [`stevedore`](https://github.com/richfitz/stevedore) Although there are a few docker clients (docker, harbor), this is my recommendation for managing docker containers from inside R. 
 
 
 ### 🔨 Workflows: Drake and friends
 
-- [`Drake`](https://github.com/ropensci/drake) - An R-focused pipeline toolkit for reproducibility and high-performance computing. Install the package from here or CRAN.
+- 📦 [`Drake`](https://github.com/ropensci/drake) - An R-focused pipeline toolkit for reproducibility and high-performance computing. Install the package from here or CRAN.
 - [The prequel to the drake R package](https://ropensci.org/blog/2018/02/06/drake/) *A blog post by the creator of Drake describing his motivation for the package.*
 - [Drake manual](https://ropenscilabs.github.io/drake-manual/) A detailed `bookdown` guide on how to setup and use Drake for projects of varying levels of complexity.
 - [Presentation on Drake](https://wlandau.github.io/drake-datafest-2019/#/) Slides from a talk by Will Landau (who is here at the conference so go pick his brain if you want to learn more!)
