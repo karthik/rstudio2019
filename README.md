@@ -2,7 +2,7 @@
 
 ![rstudio_talk_slides](https://i.imgur.com/fYGze6k.png)
 
-Slide deck (link TBD) | Slide deck as PDF (link TBD)
+[Slide deck](http://inundata.org/talks/rstd19/#/) | Slide deck as PDF (link TBD)
 
 ## Resources
 I have included a handful of links to papers, software packages and tutorials/manuals about some tools I mention in my talk. Pull requests or issues on additional ones to include are welcome.
@@ -59,7 +59,7 @@ Below are a few links to real world examples of research compendia in R. To have
 
 **Setting up Binder for your analysis**
 
-I have captured all the various ways to set up mybinder with a R project in a [separate document](binder-notes.md)
+I have captured all the various ways to set up mybinder with a R project in a [separate document](binder-notes.md). Also check out this new and experimental package called [`holepunch`](https://github.com/karthik/holepunch) to help you automate setup for a binder project.
 
 Are you interested in setting up or hosting a binderhub for the R community? Get in touch via the issues.
 
