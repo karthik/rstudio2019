@@ -93,5 +93,5 @@ Are you interested in setting up or hosting a binderhub for the R community? Get
 
 ### Acknowledgments
 
-Many thanks to [Chris Holdgraf](https://bids.berkeley.edu/people/chris-holdgraf), [Carl Boettiger](https://www.carlboettiger.info/), [Will Landau](https://wlandau.github.io/), and [Ben Marwick](http://faculty.washington.edu/bmarwick/) for various discussions on these topics. Also thanks to Ciera Martinezm Kara Woo, and Nick Tierney for comments on the presentation. 
+Many thanks to [Chris Holdgraf](https://bids.berkeley.edu/people/chris-holdgraf), [Carl Boettiger](https://www.carlboettiger.info/), [Will Landau](https://wlandau.github.io/), and [Ben Marwick](http://faculty.washington.edu/bmarwick/) for various discussions on these topics. Also thanks to Ciera Martinez, Kara Woo, and Nick Tierney for comments on the presentation. 
 
