@@ -76,14 +76,14 @@ Are you interested in setting up or hosting a binderhub for the R community? Get
 - [`stevedore`](https://github.com/richfitz/stevedore) Although there are a few docker clients (docker, harbor), this is my recommendation for managing docker containers from inside R. 
 
 
-### 🔨 Workflows: Drake and friends
+### 🔨 Workflows: drake and friends
 
-- 📦 [`Drake`](https://github.com/ropensci/drake) - An R-focused pipeline toolkit for reproducibility and high-performance computing. Install the package from here or CRAN.
-- [The prequel to the drake R package](https://ropensci.org/blog/2018/02/06/drake/) *A blog post by the creator of Drake describing his motivation for the package.*
-- [Drake manual](https://ropenscilabs.github.io/drake-manual/) A detailed `bookdown` guide on how to setup and use Drake for projects of varying levels of complexity.
-- [Presentation on Drake](https://wlandau.github.io/drake-datafest-2019/#/) Slides from a talk by Will Landau (who is here at the conference so go pick his brain if you want to learn more!)
+- 📦 [`drake`](https://github.com/ropensci/drake) - An R-focused pipeline toolkit for reproducibility and high-performance computing. Install the package from here or CRAN.
+- [The prequel to the drake R package](https://ropensci.org/blog/2018/02/06/drake/) *A blog post by the creator of drake describing his motivation for the package.*
+- [drake manual](https://ropenscilabs.github.io/drake-manual/) A detailed `bookdown` guide on how to setup and use drake for projects of varying levels of complexity.
+- [Presentation on drake](https://wlandau.github.io/drake-datafest-2019/#/) Slides from a talk by Will Landau (who is here at the conference so go pick his brain if you want to learn more!)
 
-**Real world Drake examples**
+**Real world drake examples**
 - [Pathogen modeling study](https://github.com/pat-s/pathogen-modeling)
 
 **Miscellaneous**
