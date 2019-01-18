@@ -1,6 +1,6 @@
 # How To Make Your Data Analysis Notebooks More Reproducible
 
-![rstudio_talk_slides](https://i.imgur.com/fYGze6k.png)
+[![rstudio_talk_slides](https://i.imgur.com/fYGze6k.png)](http://inundata.org/talks/rstd19/#/)
 
 [Slide deck](http://inundata.org/talks/rstd19/#/) | Slide deck as [PDF](https://github.com/karthik/rstudio2019/blob/master/reproducible-data-analysis.pdf) 
 
