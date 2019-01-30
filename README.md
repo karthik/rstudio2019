@@ -4,6 +4,8 @@
 
 [Slide deck](http://inundata.org/talks/rstd19/#/) | Slide deck as [PDF](https://github.com/karthik/rstudio2019/blob/master/reproducible-data-analysis.pdf) 
 
+[🎥 Video of talk at rstudio::conf(2019)](https://resources.rstudio.com/rstudio-conf-2019/a-guide-to-modern-reproducible-data-science-with-r) 
+
 ## Resources
 I have included a handful of links to papers, software packages and tutorials/manuals about some tools I mention in my talk. Pull requests or issues on additional ones to include are welcome.
 
